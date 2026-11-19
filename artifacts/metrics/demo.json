@@ -1,0 +1,466 @@
+{
+  "run_id": "662a2527a48144668ab2a599866a8f6b",
+  "records": 1470,
+  "left": 237,
+  "mean_risk": 0.1608446874316066,
+  "mean_satisfaction": 2.7285714285714286,
+  "bands": {
+    "Low Risk": 1199,
+    "Medium Risk": 177,
+    "High Risk": 94
+  },
+  "cohorts": {
+    "JobSatisfaction": [
+      {
+        "Group": "1",
+        "Records": 289,
+        "Left": 66,
+        "Stayed": 223,
+        "Historical rate": 0.22837370242214533,
+        "Mean risk": 0.2214295403004242
+      },
+      {
+        "Group": "2",
+        "Records": 280,
+        "Left": 46,
+        "Stayed": 234,
+        "Historical rate": 0.16428571428571428,
+        "Mean risk": 0.1839425024511105
+      },
+      {
+        "Group": "3",
+        "Records": 442,
+        "Left": 73,
+        "Stayed": 369,
+        "Historical rate": 0.16515837104072398,
+        "Mean risk": 0.1510406022155964
+      },
+      {
+        "Group": "4",
+        "Records": 459,
+        "Left": 52,
+        "Stayed": 407,
+        "Historical rate": 0.11328976034858387,
+        "Mean risk": 0.11804946952512976
+      }
+    ],
+    "BusinessTravel": [
+      {
+        "Group": "Non-Travel",
+        "Records": 150,
+        "Left": 12,
+        "Stayed": 138,
+        "Historical rate": 0.08,
+        "Mean risk": 0.08623668025747332
+      },
+      {
+        "Group": "Travel_Frequently",
+        "Records": 277,
+        "Left": 69,
+        "Stayed": 208,
+        "Historical rate": 0.2490974729241877,
+        "Mean risk": 0.25130356896542067
+      },
+      {
+        "Group": "Travel_Rarely",
+        "Records": 1043,
+        "Left": 156,
+        "Stayed": 887,
+        "Historical rate": 0.14956855225311602,
+        "Mean risk": 0.14755043133501358
+      }
+    ],
+    "YearsSinceLastPromotion": [
+      {
+        "Group": "0 years",
+        "Records": 581,
+        "Left": 110,
+        "Stayed": 471,
+        "Historical rate": 0.18932874354561102,
+        "Mean risk": 0.18650118735348595
+      },
+      {
+        "Group": "1–2 years",
+        "Records": 516,
+        "Left": 76,
+        "Stayed": 440,
+        "Historical rate": 0.14728682170542637,
+        "Mean risk": 0.15934574455279096
+      },
+      {
+        "Group": "3–5 years",
+        "Records": 158,
+        "Left": 16,
+        "Stayed": 142,
+        "Historical rate": 0.10126582278481013,
+        "Mean risk": 0.08973034351982763
+      },
+      {
+        "Group": "6+ years",
+        "Records": 215,
+        "Left": 35,
+        "Stayed": 180,
+        "Historical rate": 0.16279069767441862,
+        "Mean risk": 0.147370707938202
+      }
+    ],
+    "OverTime": [
+      {
+        "Group": "No",
+        "Records": 1054,
+        "Left": 110,
+        "Stayed": 944,
+        "Historical rate": 0.10436432637571158,
+        "Mean risk": 0.11299660398373677
+      },
+      {
+        "Group": "Yes",
+        "Records": 416,
+        "Left": 127,
+        "Stayed": 289,
+        "Historical rate": 0.30528846153846156,
+        "Mean risk": 0.2820751680903922
+      }
+    ],
+    "JobLevel": [
+      {
+        "Group": "1",
+        "Records": 543,
+        "Left": 143,
+        "Stayed": 400,
+        "Historical rate": 0.26335174953959484,
+        "Mean risk": 0.2340650567287998
+      },
+      {
+        "Group": "2",
+        "Records": 534,
+        "Left": 52,
+        "Stayed": 482,
+        "Historical rate": 0.09737827715355805,
+        "Mean risk": 0.1451516509100296
+      },
+      {
+        "Group": "3",
+        "Records": 218,
+        "Left": 32,
+        "Stayed": 186,
+        "Historical rate": 0.14678899082568808,
+        "Mean risk": 0.10725191321746821
+      },
+      {
+        "Group": "4",
+        "Records": 106,
+        "Left": 5,
+        "Stayed": 101,
+        "Historical rate": 0.04716981132075472,
+        "Mean risk": 0.0591561721424335
+      },
+      {
+        "Group": "5",
+        "Records": 69,
+        "Left": 5,
+        "Stayed": 64,
+        "Historical rate": 0.07246376811594203,
+        "Mean risk": 0.03162191023567486
+      }
+    ],
+    "Department": [
+      {
+        "Group": "Human Resources",
+        "Records": 63,
+        "Left": 12,
+        "Stayed": 51,
+        "Historical rate": 0.19047619047619047,
+        "Mean risk": 0.18845663168402838
+      },
+      {
+        "Group": "Research & Development",
+        "Records": 961,
+        "Left": 133,
+        "Stayed": 828,
+        "Historical rate": 0.1383975026014568,
+        "Mean risk": 0.1354612184043851
+      },
+      {
+        "Group": "Sales",
+        "Records": 446,
+        "Left": 92,
+        "Stayed": 354,
+        "Historical rate": 0.2062780269058296,
+        "Mean risk": 0.21163832251514308
+      }
+    ],
+    "JobRole": [
+      {
+        "Group": "Healthcare Representative",
+        "Records": 131,
+        "Left": 9,
+        "Stayed": 122,
+        "Historical rate": 0.06870229007633588,
+        "Mean risk": 0.07523403791164306
+      },
+      {
+        "Group": "Laboratory Technician",
+        "Records": 259,
+        "Left": 62,
+        "Stayed": 197,
+        "Historical rate": 0.23938223938223938,
+        "Mean risk": 0.2531947659984089
+      },
+      {
+        "Group": "Manager",
+        "Records": 102,
+        "Left": 5,
+        "Stayed": 97,
+        "Historical rate": 0.049019607843137254,
+        "Mean risk": 0.045110803048590976
+      },
+      {
+        "Group": "Manufacturing Director",
+        "Records": 145,
+        "Left": 10,
+        "Stayed": 135,
+        "Historical rate": 0.06896551724137931,
+        "Mean risk": 0.06942514176695035
+      },
+      {
+        "Group": "Research Scientist",
+        "Records": 292,
+        "Left": 47,
+        "Stayed": 245,
+        "Historical rate": 0.16095890410958905,
+        "Mean risk": 0.13713084816721616
+      },
+      {
+        "Group": "Sales Executive",
+        "Records": 326,
+        "Left": 57,
+        "Stayed": 269,
+        "Historical rate": 0.17484662576687116,
+        "Mean risk": 0.18417533755774404
+      },
+      {
+        "Group": "Sales Representative",
+        "Records": 83,
+        "Left": 33,
+        "Stayed": 50,
+        "Historical rate": 0.39759036144578314,
+        "Mean risk": 0.3888619155618437
+      }
+    ],
+    "EnvironmentSatisfaction": [
+      {
+        "Group": "1",
+        "Records": 284,
+        "Left": 72,
+        "Stayed": 212,
+        "Historical rate": 0.2535211267605634,
+        "Mean risk": 0.22226312222480202
+      },
+      {
+        "Group": "2",
+        "Records": 287,
+        "Left": 43,
+        "Stayed": 244,
+        "Historical rate": 0.14982578397212543,
+        "Mean risk": 0.19129934032473697
+      },
+      {
+        "Group": "3",
+        "Records": 453,
+        "Left": 62,
+        "Stayed": 391,
+        "Historical rate": 0.1368653421633554,
+        "Mean risk": 0.14162508286039996
+      },
+      {
+        "Group": "4",
+        "Records": 446,
+        "Left": 60,
+        "Stayed": 386,
+        "Historical rate": 0.13452914798206278,
+        "Mean risk": 0.12165894754183233
+      }
+    ],
+    "WorkLifeBalance": [
+      {
+        "Group": "1",
+        "Records": 80,
+        "Left": 25,
+        "Stayed": 55,
+        "Historical rate": 0.3125,
+        "Mean risk": 0.2868250660486233
+      },
+      {
+        "Group": "2",
+        "Records": 344,
+        "Left": 58,
+        "Stayed": 286,
+        "Historical rate": 0.1686046511627907,
+        "Mean risk": 0.1875559828466066
+      },
+      {
+        "Group": "3",
+        "Records": 893,
+        "Left": 127,
+        "Stayed": 766,
+        "Historical rate": 0.1422172452407615,
+        "Mean risk": 0.14704484002700682
+      },
+      {
+        "Group": "4",
+        "Records": 153,
+        "Left": 27,
+        "Stayed": 126,
+        "Historical rate": 0.17647058823529413,
+        "Mean risk": 0.11546003266158206
+      }
+    ],
+    "MonthlyIncome": [
+      {
+        "Group": "Below 3,000",
+        "Records": 395,
+        "Left": 113,
+        "Stayed": 282,
+        "Historical rate": 0.28607594936708863,
+        "Mean risk": 0.24593762477420872
+      },
+      {
+        "Group": "3,000–5,999",
+        "Records": 519,
+        "Left": 66,
+        "Stayed": 453,
+        "Historical rate": 0.12716763005780346,
+        "Mean risk": 0.16624923014453827
+      },
+      {
+        "Group": "6,000–9,999",
+        "Records": 275,
+        "Left": 33,
+        "Stayed": 242,
+        "Historical rate": 0.12,
+        "Mean risk": 0.12693809138293946
+      },
+      {
+        "Group": "10,000+",
+        "Records": 281,
+        "Left": 25,
+        "Stayed": 256,
+        "Historical rate": 0.08896797153024912,
+        "Mean risk": 0.06443061623959266
+      }
+    ],
+    "YearsAtCompany": [
+      {
+        "Group": "0–2 years",
+        "Records": 342,
+        "Left": 102,
+        "Stayed": 240,
+        "Historical rate": 0.2982456140350877,
+        "Mean risk": 0.28509680461219084
+      },
+      {
+        "Group": "3–5 years",
+        "Records": 434,
+        "Left": 60,
+        "Stayed": 374,
+        "Historical rate": 0.1382488479262673,
+        "Mean risk": 0.15638665971307783
+      },
+      {
+        "Group": "6–10 years",
+        "Records": 448,
+        "Left": 55,
+        "Stayed": 393,
+        "Historical rate": 0.12276785714285714,
+        "Mean risk": 0.11837226656965343
+      },
+      {
+        "Group": "11+ years",
+        "Records": 246,
+        "Left": 20,
+        "Stayed": 226,
+        "Historical rate": 0.08130081300813008,
+        "Mean risk": 0.07331706344882889
+      }
+    ]
+  },
+  "quality": {
+    "columns": 31,
+    "duplicates": 0,
+    "missing_values": {
+      "Age": 0,
+      "DailyRate": 0,
+      "DistanceFromHome": 0,
+      "HourlyRate": 0,
+      "MonthlyIncome": 0,
+      "MonthlyRate": 0,
+      "NumCompaniesWorked": 0,
+      "PercentSalaryHike": 0,
+      "TotalWorkingYears": 0,
+      "TrainingTimesLastYear": 0,
+      "YearsAtCompany": 0,
+      "YearsInCurrentRole": 0,
+      "YearsSinceLastPromotion": 0,
+      "YearsWithCurrManager": 0,
+      "Education": 0,
+      "JobLevel": 0,
+      "StockOptionLevel": 0,
+      "PerformanceRating": 0,
+      "EnvironmentSatisfaction": 0,
+      "JobInvolvement": 0,
+      "JobSatisfaction": 0,
+      "RelationshipSatisfaction": 0,
+      "WorkLifeBalance": 0,
+      "BusinessTravel": 0,
+      "Department": 0,
+      "EducationField": 0,
+      "Gender": 0,
+      "JobRole": 0,
+      "MaritalStatus": 0,
+      "OverTime": 0,
+      "Attrition": 0
+    },
+    "missing_expected": [],
+    "numeric_fields": [
+      "Age",
+      "DailyRate",
+      "DistanceFromHome",
+      "HourlyRate",
+      "MonthlyIncome",
+      "MonthlyRate",
+      "NumCompaniesWorked",
+      "PercentSalaryHike",
+      "TotalWorkingYears",
+      "TrainingTimesLastYear",
+      "YearsAtCompany",
+      "YearsInCurrentRole",
+      "YearsSinceLastPromotion",
+      "YearsWithCurrManager",
+      "Education",
+      "JobLevel",
+      "StockOptionLevel",
+      "PerformanceRating",
+      "EnvironmentSatisfaction",
+      "JobInvolvement",
+      "JobSatisfaction",
+      "RelationshipSatisfaction",
+      "WorkLifeBalance"
+    ],
+    "categorical_fields": [
+      "BusinessTravel",
+      "Department",
+      "EducationField",
+      "Gender",
+      "JobRole",
+      "MaritalStatus",
+      "OverTime"
+    ],
+    "tenure_inconsistencies": {
+      "YearsAtCompany > TotalWorkingYears": 0,
+      "YearsInCurrentRole > YearsAtCompany": 0,
+      "YearsSinceLastPromotion > YearsAtCompany": 0,
+      "YearsWithCurrManager > YearsAtCompany": 0
+    }
+  }
+}
