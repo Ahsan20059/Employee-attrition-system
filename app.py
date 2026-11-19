@@ -36,5 +36,4 @@ with st.sidebar:
         st.caption("The display bands can change independently of the model’s classification threshold.")
     else:
         st.html('<div class="scope">Aggregate demo · individual records hidden</div>')
-    st.caption("Internship case study · workforce source unverified")
 current.run()
